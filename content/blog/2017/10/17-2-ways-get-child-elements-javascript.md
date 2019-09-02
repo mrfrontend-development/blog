@@ -12,7 +12,7 @@ Today I want to show you 2 ways how you can use Vanilla JavaScript to get the ch
 
 If you like reading instead of watching a video? Please scroll down to continue reading.
 
-https://youtu.be/m3YCD9tifoA
+`video: https://youtu.be/m3YCD9tifoA`
 
 Looking for the video resources? Scroll to the bottom!
 <h2>Let’s start with a simple webshop page.</h2>

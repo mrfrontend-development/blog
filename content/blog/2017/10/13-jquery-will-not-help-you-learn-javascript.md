@@ -12,7 +12,8 @@ date: 2017-10-13 10:56:15
 ---
 Be aware that this blog post is my opinion, based on my own experience. So it is possible that you won't agree with that and that is okay. If you want to give your vision about this topic, please do it in the comments &#x1f609;.
 <h2>Video</h2>
-https://youtu.be/oacNCfqOu_I
+
+`video: https://youtu.be/oacNCfqOu_I`
 
 jQuery is a JavaScript library, most used by Developers &amp; Designers for DOM manipulation, Animation and a lot of other stuff.
 

@@ -15,7 +15,7 @@ date: 2017-11-17 10:28:18
 ---
 Every fifth episode of the Mr Frontend Podcast is gonna be a visual one! In this episode, I will talk about the new Mr Frontend Online Class, Frontend Love Conference, VueJS Conference and some cool Web Development new from these past weeks!
 
-https://youtu.be/YyGbKnNuQAQ
+`video: https://youtu.be/YyGbKnNuQAQ`
 
 You can also listen to this podcast on <a href="https://soundcloud.com/mr-frontend-community/mr-frontend-podcast-5-vuejs-conference-frontend-love-conference-web-development-news" target="_blank" rel="noopener">Soundcloud</a> or <a href="https://itunes.apple.com/us/podcast/mr-frontend-community/id1271838550?mt=2" target="_blank" rel="noopener">iTunes</a>!
 <h2><b>Mr Frontend Online Class</b></h2>

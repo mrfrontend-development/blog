@@ -17,7 +17,7 @@ In my opinion, the JavaScript Module Pattern is the way to structure your JavaSc
 
 But today I’m not gonna talk about everything of that Module Pattern. Today I’m gonna show you how you can create private functions and public methods.
 
-https://youtu.be/bEYjWhqrt_0
+`video: https://youtu.be/bEYjWhqrt_0`
 
 &nbsp;
 <h3>Private function</h3>

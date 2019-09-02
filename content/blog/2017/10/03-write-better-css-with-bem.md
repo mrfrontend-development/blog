@@ -21,7 +21,8 @@ If you like a visual example of how I would change my already CSS developed to t
 
 If you are more a person to read, please follow the text below
 
-https://youtu.be/ah1qRTWVVjY
+`video: https://youtu.be/ah1qRTWVVjY`
+
 <h2><b>Video notes</b></h2>
 <b>Example website</b>
 

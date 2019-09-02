@@ -18,7 +18,8 @@ So let’s dive into the code &#x1f44d;
 
 If you are more a fan of reading than watching a video about the <em>querySelector()</em> than scroll down to read it &#x1f609;
 
-https://youtu.be/cLsTHYS7-7A
+`video: https://youtu.be/cLsTHYS7-7A`
+
 <h2><b>The querySelector() methods</b></h2>
 You can use both the querySelector methods to search for one or more elements via a:
 

@@ -14,7 +14,8 @@ Let’s get started with Git &#x1f680;&#x1f525;
 
 If you prefer reading over watching a video? Scroll down, below the video, everything is written down.
 
-https://www.youtube.com/watch?v=hFi0hUnvr0s
+`video: https://www.youtube.com/watch?v=hFi0hUnvr0s`
+
 <h2>What is Git?</h2>
 Git is nowadays the way to keep your projects save! Your own small project or the projects of big teams inside companies.
 

@@ -14,7 +14,7 @@ This time I want to talk what a return statement does and how you can return a v
 
 If you don’t like to watch a video, then scroll down for reading (almost) everything I said in the video.
 
-https://youtu.be/CXScWfSd-9Y
+`video: https://youtu.be/CXScWfSd-9Y`
 
 Let’s start with creating a simple multiply function in Vanilla JavaScript.
 ```

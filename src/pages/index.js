@@ -28,19 +28,56 @@ class BlogIndex extends React.Component {
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+          const tags = node.frontmatter.tags
+          const categories = Array.isArray(node.frontmatter.categories)
+            ? node.frontmatter.categories[0]
+            : node.frontmatter.categories
+          console.log('tags: ', tags)
           return (
-            <div key={node.fields.slug}>
+            <div
+              key={node.fields.slug}
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(5, 1fr)',
+                gridColumnGap: '1rem',
+              }}
+            >
               <h3
                 style={{
+                  marginTop: 0,
                   marginBottom: rhythm(1 / 4),
+                  gridColumn: '1/5',
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              {categories && (
+                <p
+                  style={{
+                    gridColumn: '5',
+                    textAlign: 'right',
+                  }}
+                >
+                  <strong>{categories}</strong>
+                </p>
+              )}
+              <small
+                style={{
+                  gridColumn: '5',
+                  textAlign: 'right',
+                }}
+              >
+                {node.frontmatter.date}
+              </small>
+
+              <p
+                style={{
+                  gridColumn: '1/5',
+                }}
+                dangerouslySetInnerHTML={{ __html: node.excerpt }}
+              />
             </div>
           )
         })}
@@ -59,6 +96,10 @@ export const pageQuery = graphql`
       }
     }
     allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+      group(field: frontmatter___tags) {
+        tag: fieldValue
+        totalCount
+      }
       edges {
         node {
           excerpt
@@ -68,6 +109,8 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            tags
+            categories
           }
         }
       }

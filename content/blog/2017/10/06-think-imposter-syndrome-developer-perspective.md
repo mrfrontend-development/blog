@@ -16,7 +16,7 @@ I created this video because I was inspired by the talk of Jessica Rose that sh
 
 Her talk It was so relatable! And I wanted to share a few things from what I learned from it, and a few additions from my own!
 
-https://www.youtube.com/watch?v=CLXQEhR-LoY
+`video: https://www.youtube.com/watch?v=CLXQEhR-LoY`
 
 <strong>Video notes</strong>
 

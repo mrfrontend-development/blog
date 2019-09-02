@@ -22,7 +22,8 @@ Well In one of my Podcasts I told you a few ideas of <a href="https://blog.mrfro
 
 The excuses of “<em>I don’t have anything to show</em>” is <strong>BULLSHIT&#x1f4e2;</strong>! If you want to be a developer and want to land a great job as a Junior Developer, you have to put your name out on the open web! The INTERNET!
 <h2>Video</h2>
-https://youtu.be/1ibbd8CE6z4
+
+`video: https://youtu.be/1ibbd8CE6z4`
 
 When doing the live video and writing this I will keep my friend Sami in mind. I’ve met <a href="https://twitter.com/SamiADelgado" target="_blank" rel="noopener">Sami</a> in the beginning of February 2016, when I started Mr Frontend.
 

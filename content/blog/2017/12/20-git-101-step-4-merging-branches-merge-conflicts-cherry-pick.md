@@ -13,7 +13,8 @@ Let's get fired up and hit the terminal &#x1f525;
 
 <em>In the video, I show you everything that I know. Below the video, you can check the notes with all the commands you need.</em>
 
-https://youtu.be/BTIyMEOOPEQ
+`video: https://youtu.be/BTIyMEOOPEQ`
+
 <h2>1 Git pull a different branch into current branch!</h2>
 Make sure your both branches are up to date on the remote!
 ```

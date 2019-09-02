@@ -14,7 +14,8 @@ In the previous videos and blogs, I showed you a couple of things with <a href="
 
 If your not a video person, please scroll down for the written version &#x1f609;
 
-https://www.youtube.com/watch?v=ENTuadZmDJ8&feature=youtu.be
+`video: https://www.youtube.com/watch?v=ENTuadZmDJ8&feature=youtu.be`
+
 <h2>Add element to body</h2>
 First, let’s add an HTML element to our page via Vanilla JavaScript.
 

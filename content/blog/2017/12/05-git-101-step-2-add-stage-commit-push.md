@@ -15,7 +15,7 @@ In the <a href="https://blog.mrfrontend.org/2017/11/git-101-step-1-setup-create-
 
 Don't wait any longer! Let's dive in! &#x1f525;
 
-https://youtu.be/t-V1CYaPI1M
+`video: https://youtu.be/t-V1CYaPI1M`
 
 In order to get your files on Github, we need to add a remote to the local Git repository.
 <h2>Add remote</h2>

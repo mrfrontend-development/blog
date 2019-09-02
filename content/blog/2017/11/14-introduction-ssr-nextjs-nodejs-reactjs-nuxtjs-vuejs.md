@@ -14,7 +14,7 @@ At the moment there is a lot talking about SSR (Serverside rendering) applicatio
 
 Check my experiment with the new Mr Frontend Blog with NextJS and the WordPress API!
 
-https://youtu.be/7N6PaO7UnvA
+`video: https://youtu.be/7N6PaO7UnvA`
 
 So no JavaScript teaching today, but an introduction to <a href="https://zeit.co/blog/next2" target="_blank" rel="noopener">NextJS</a>!
 <h2>NextJS</h2>

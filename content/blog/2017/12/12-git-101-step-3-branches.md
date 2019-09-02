@@ -10,7 +10,8 @@ date: 2017-12-12 10:03:07
 ---
 This time we are going to talk about how you can handle branches with Git on the terminal &#x1f680;. For a full explanation check the video &#x1f609;
 
-https://youtu.be/Kf4sjbE-G24
+`video: https://youtu.be/Kf4sjbE-G24`
+
 <h2>What is a Git branch?</h2>
 A branch is a separate workspace, it’s like a bucket where you can fiddle around without screwing the production application.
 
