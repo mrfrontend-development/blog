@@ -6,6 +6,13 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 
+import 'prism-theme-night-owl'
+
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
+import 'prismjs/plugins/command-line/prism-command-line.css'
+
+import '../styles/prisms-custom.css'
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
