@@ -46,7 +46,9 @@ var MrFrontendModule = (function() {
   }
 
   return mrFrontendMethods;
-})();```
+})();
+
+```
 Inside the module we have:
 <ul>
  	<li>A let mrFrontendMethods variable which is an Object</li>
@@ -73,17 +75,23 @@ We created this module because we want to make it re-usable across our other mod
 
 Let’s start with just using the <code>MrFrontendModule</code>. It is very easy, just call the methods like this:
 ```
-console.log(‘Title: ‘, MrFrontendModule.getTitle());```
+console.log(‘Title: ‘, MrFrontendModule.getTitle());
+
+```
 When this code will be executed you will see this as result: "<em>The </em>Mr<em> Frontend JavaScript Module</em> ”.
 
 And that is expected!
 
 What if we try to call the function <code>addEmoticon</code> like this?
 ```
-console.log(‘Title: ‘, MrFrontendModule.addEmoticon());```
+console.log(‘Title: ‘, MrFrontendModule.addEmoticon());
+```
+
 We will get this error:
 ```
-"TypeError: MrFrontendModule.addEmoticon is not a function```
+"TypeError: MrFrontendModule.addEmoticon is not a function
+
+```
 And that is correct because this function is not returned by the module, so basically hidden for everything outside the module.
 
 So we can only call the function<code>addEmoticon</code> inside the <code>MrFrontendModule</code>.
@@ -97,7 +105,8 @@ var SecondModule = (function(MrFrontendModule) {
   }
 
   return secondModuleMethods;
-})(MrFrontendModule);```
+})(MrFrontendModule);
+```
 <h2>How would you handle private and public functions?</h2>
 If you have another way of using private and public functions?
 
